@@ -24,29 +24,31 @@ main{
     height: 100vh;
 }
 
-section#loginscreen{
+section#login{
     position: absolute;
-    background-color: white;
     width: 250px;
     height: 500px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 20px;
     overflow: hidden;
+
+    background-color: white;
+    border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
 
-section#loginscreen > div#picture{
+section#login > div#picture{
     background: var(--lilas) url(../pictures/metal.jpg) no-repeat left bottom;
     background-size: cover;
     display: block;
     height: 200px;
 }
 
-section#loginscreen > div#formulary{
+section#login > div#form{
     display: block;
     padding: 10px;
 
